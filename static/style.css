@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+    background-image:url("cat.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    padding:40px;
+}
+
+.container{
+    max-width:900px;
+
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+
+    margin-bottom:25px;
+
+    color:white;
+
+    text-shadow:2px 2px 4px black;
+}
+
+.balance-card,
+.register-card,
+.form-card,
+.transaction-card,
+.profile-card{
+
+    background:rgba(255,255,255,0.92);
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.balance-card{
+    text-align:center;
+}
+
+.balance-card p{
+    font-size:2rem;
+
+    margin-top:10px;
+
+    font-weight:bold;
+
+    color:green;
+}
+
+h2{
+    margin-bottom:15px;
+}
+
+form{
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+}
+
+input,
+select{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+}
+
+button{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+button:hover{
+
+    transform:scale(1.03);
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+
+    padding:12px;
+
+    border-bottom:1px solid #ddd;
+}
+
+li:last-child{
+
+    border-bottom:none;
+}

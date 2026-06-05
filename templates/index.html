@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Tracker</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>💰 Personal Finance Tracker</h1>
+
+        <!-- BALANCE -->
+
+        <div class="balance-card">
+
+            <h2>Current Balance</h2>
+
+            <p>$0.00</p>
+
+        </div>
+
+        <!-- REGISTER ACCOUNT -->
+
+        <div class="register-card">
+
+            <h2>Create Account</h2>
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="First Name">
+
+                <input
+                    type="text"
+                    placeholder="Last Name">
+
+                <input
+                    type="email"
+                    placeholder="Email Address">
+
+                <input
+                    type="tel"
+                    placeholder="Phone Number">
+
+                <input
+                    type="text"
+                    placeholder="Home Address">
+
+                <input
+                    type="text"
+                    placeholder="Username">
+
+                <input
+                    type="password"
+                    placeholder="Password">
+
+                <input
+                    type="password"
+                    placeholder="Confirm Password">
+
+                <button type="submit">
+                    Create Account
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- ADD TRANSACTION -->
+
+        <div class="form-card">
+
+            <h2>Add Transaction</h2>
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="Description">
+
+                <input
+                    type="number"
+                    placeholder="Amount">
+
+                <select>
+
+                    <option>Income</option>
+
+                    <option>Expense</option>
+
+                    <option>Food</option>
+
+                    <option>Rent</option>
+
+                    <option>Gas</option>
+
+                    <option>Entertainment</option>
+
+                    <option>Other</option>
+
+                </select>
+
+                <button type="submit">
+                    Add Transaction
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- TRANSACTIONS -->
+
+        <div class="transaction-card">
+
+            <h2>Recent Transactions</h2>
+
+            <ul>
+
+                <li>Salary + $2000</li>
+
+                <li>Rent - $800</li>
+
+                <li>Food - $150</li>
+
+                <li>Gas - $60</li>
+
+            </ul>
+
+        </div>
+
+        <!-- PROFILE -->
+
+        <div class="profile-card">
+
+            <h2>User Profile</h2>
+
+            <ul>
+                <li>Name: [Your Name]</li>
+
+                <li>Email: [Your Email]</li>
+
+                <li>Phone: [Your Phone Number]</li>
+
+                <li>Address: [Your Address]</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
